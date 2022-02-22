@@ -1,0 +1,84 @@
+/*
+ * mixed by marcexl
+ * version 15022022
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+html, body{
+    background: #d8e6ed;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ .container{
+     height: 100vh;
+ }
+
+ .logo{
+     padding: 40px 0;
+ }
+ 
+ h1{ 
+    font-weight: 700;
+    font-size: 3rem;
+ }
+
+ p{
+     padding: 15px 0;
+ }
+
+ .pr{
+     padding-right: 120px;
+ }
+
+ .fa{
+     margin-right: 15px;
+ }
+
+ #first-row{
+     height: 100%;
+ }
+
+ @media screen and (max-width:756px){
+     h1{
+         font-size: 2rem;
+     }
+    .logo{
+        padding: 15px 0;
+    }
+    .logo-row{
+        background: #abdcf5;
+    }
+    .col-2,
+    .col-8{
+         width: 100%;
+    }
+
+    #first-row {
+        flex-direction: column;
+        flex-wrap: initial;
+    }
+    .buttons-col{
+        text-align: center;
+    }
+    .buttons-col img{
+        width: 150px;
+        display: inline-block;
+    }
+    .social-buttons{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .pr{
+        text-align: center;
+        padding: 15px;
+    }
+    .col-2 img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .fa{
+        margin: 0 10px;
+    }
+ }
